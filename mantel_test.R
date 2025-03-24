@@ -1,5 +1,6 @@
 #this script carries out an isolation by distance on British polecat data using a mantel test. Input data are the geographic locations 
-# (long/lat) of sample locations and genetic matrix which was calculated using the hamming distance in plink. 
+# (long/lat) of sample locations and genetic matrix which was calculated using the hamming distance in plink
+#e.g. plink --vcf ${VCF} --allow-extra-chr --distance square --out  genetic_distance_UK_unrelated. 
 
 
 setwd("/Users/shawr/Documents/PolecatWork/JAN2025/ibd/")
