@@ -1,4 +1,7 @@
-getwd()
+#this script carries out an isolation by distance on British polecat data using a mantel test. Input data are the geographic locations 
+# (long/lat) of sample locations and genetic matrix which was calculated using the hamming distance in plink. 
+
+
 setwd("/Users/shawr/Documents/PolecatWork/JAN2025/ibd/")
 library(dplyr)
 library(ggplot2)
