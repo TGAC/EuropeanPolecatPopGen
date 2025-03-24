@@ -14,7 +14,7 @@ df = pd.read_csv(input_file, sep=",")  # Assuming tab-separated file, change if 
 def infer_ancestral_allele(row):
     """
     Infers the ancestral allele using weasel, polecat, and steppe polecat data.
-    - If weasel, polecat, and/or steppe polecat have the same allele, that is inferred as ancestral.
+    - If weasel, polecat, and steppe polecat have the same allele, that is inferred as ancestral.
     - If weasel has a different allele than the others, assume weasel carries a unique mutation.
     """
     alleles = {row["Ferret"], row["Steppe"], row["Weasel"]}  # Unique alleles in outgroups
