@@ -1,4 +1,4 @@
-
+# this file takes in the intersected bed files containing the hal snps data and the snpeff annotated variants
 import os
 import pandas as pd
 import sys
